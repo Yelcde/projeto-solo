@@ -106,7 +106,7 @@ nav > ul#menu > li#home:hover{
 }
 
 nav > ul#menu > li:hover{
-    background-color: rgba(255, 0, 0, 0.658);
+    background-color:rgb(209, 2, 2);
     color: white;
     transition: 0.5s;
 }
@@ -131,6 +131,11 @@ main{
 
 #center > p{
     padding-top: 10px;
+}
+
+#center:hover{
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.473);
+    transition: 0.5s;
 }
 
 button#b2{
