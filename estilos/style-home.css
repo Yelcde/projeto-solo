@@ -19,10 +19,11 @@
 
 body{
     background-color: black;
-    background-image: url('../imagens/fundo.jpg');
+    background-image: url('../imagens/Sra.\ Castro.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    background-attachment: fixed;
+    height: 100% 100%;
     background-position: center center;
     text-align: center;
 }
@@ -44,10 +45,13 @@ header{
 header > h1{
     font-family: var(--font2);
     font-weight: normal;
+    transition: 0.5s;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 header > h1:hover{
-    color: red;
+    color: #8f7363;
     transition: 0.5s;
 }
 
@@ -67,6 +71,7 @@ header > h1:hover{
 @media (max-width: 700px){
     header{
         flex-direction: column;
+        height: 11vh;
     }
 }
 
@@ -81,12 +86,14 @@ a{
     color: white;
 }
 
+nav{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
 nav, ul#menu{
     display: flex;
     flex-direction: row;
-}
-
-nav > ul#menu{
     list-style: none;
     letter-spacing: 3px;
 }
@@ -94,19 +101,11 @@ nav > ul#menu{
 nav > ul#menu > li{
     margin-left: 0px;
     padding: 10px;
-}
-
-nav > ul#menu > li#home{
-    background-color:rgb(209, 2, 2);
-}
-
-nav > ul#menu > li#home:hover{
-    background-color: transparent;
     transition: 0.5s;
 }
 
 nav > ul#menu > li:hover{
-    background-color:rgb(209, 2, 2);
+    background-color:#8f7363;
     color: white;
     transition: 0.5s;
 }
@@ -114,6 +113,7 @@ nav > ul#menu > li:hover{
 main{
     display: flex;
     color: white;
+    text-shadow: 2px 2px 10px black;
     height: 82vh;
     justify-content: center;
     align-items: center;
@@ -127,6 +127,7 @@ main{
     font-family: var(--font1);
     letter-spacing: 2px;
     box-shadow: 2px 2px 10px black;
+    transition: 0.5s;
 }
 
 #center > p{
@@ -138,10 +139,10 @@ main{
     transition: 0.5s;
 }
 
-button#b2{
+button#b1{
     margin-top: 10px;
     background-color: transparent;
-    background-color: rgb(209, 2, 2);
+    background-color: #8f7363;
     border: none;
     padding: 10px;
     border-radius: 10px;
@@ -150,11 +151,25 @@ button#b2{
     width: 170px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.774);
     letter-spacing: 1.5px;
+    transition: 0.5s;
 }
 
-button#b2:hover{
-    background-color: red;
+button#b1:hover{
+    background-color: #5e4b40;
     transition: 0.5s;
     cursor: pointer;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.473);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.473);
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.432);
+    color: white;
+    padding: 30px;
+    font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+
+footer > p{
+    text-align: left;
+    margin-bottom: 4px;
 }
