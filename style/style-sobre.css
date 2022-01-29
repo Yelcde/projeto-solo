@@ -126,7 +126,7 @@ section{
 .p{
     color: white;
     text-align: justify;
-    max-width: 300px;
+    max-width: 1000px;
     font-family: var(--font1);
 }
 
