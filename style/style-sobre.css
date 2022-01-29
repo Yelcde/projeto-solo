@@ -60,6 +60,12 @@ header > h1:hover{
         flex-direction: column;
         height: 11vh;
     }
+
+     .photo{
+         transition: 0.5s;
+         max-height: 300px;
+         max-width: 200px;
+     }  
 }
 
 a{
@@ -109,7 +115,7 @@ section{
     width: 100%;
 }
 
-#container1{
+.container{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -117,40 +123,10 @@ section{
     padding-right: 50px;
 }
 
-#container1 > p{
+.p{
     color: white;
     text-align: justify;
-    max-width: 1000px;
-    font-family: var(--font1);
-}
-
-#container2{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-#container2 > p{
-    color: white;
-    text-align: justify;
-    max-width: 1000px;
-    font-family: var(--font1);
-}
-
-#container3{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-#container3 > p{
-    color: white;
-    text-align: justify;
-    max-width: 1000px;
+    max-width: 300px;
     font-family: var(--font1);
 }
 
