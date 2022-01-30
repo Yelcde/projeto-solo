@@ -85,12 +85,6 @@ nav > ul#menu > li{
     transition: 0.5s;
 }
 
-nav > ul#menu > li:hover{
-    background-color:#8f7363;
-    color: white;
-    transition: 0.5s;
-}
-
 main{
     display: flex;
     color: white;

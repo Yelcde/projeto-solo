@@ -66,6 +66,10 @@ header > h1:hover{
          max-height: 300px;
          max-width: 200px;
      }  
+
+     section{
+        background-color: rgba(0, 0, 0, 0.432);
+     }
 }
 
 a{
@@ -91,28 +95,36 @@ nav > ul#menu > li{
     transition: 0.5s;
 }
 
-nav > ul#menu > li:hover{
-    background-color:#8f7363;
-    color: white;
-    transition: 0.5s;
-}
-
 main{
     height: 100%vh;
 }
 
 section{
     max-width: 1000px;
-    background-color: rgba(0, 0, 0, 0.432);
     margin: 0 auto;
     margin-bottom: 20px;
     margin-top: 20px;
+    transition: 0.5s;
+}
+
+section:hover{
+    background-color: rgba(0, 0, 0, 0.432);
+    transition: 0.5s;
+    box-shadow: 2px 2px 10px black;
 }
 
 .photo{
-    padding: 30px;
+    padding: 20px;
     height: 100%;    
     width: 100%;
+}
+
+.photo > #pup{
+    padding-top: 20px;
+}
+
+.photo > #pbottom{
+    padding-bottom: 20px;
 }
 
 .container{
